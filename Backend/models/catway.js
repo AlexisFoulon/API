@@ -8,7 +8,7 @@ const CatwaySchema = new mongoose.Schema({
     },
     catwayType: {
         type: String,
-        anum: ['short', 'long'],
+        enum: ['short', 'long'],
         required: true
     },
     catwayState: {

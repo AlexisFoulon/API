@@ -1,8 +1,9 @@
 const mongoose = require ('mongoose');
 
 const ReservationSchema = new mongoose.Schema({
-    CatwayNumber: {
-        type: Number,
+    Catway: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Catway',
         required: true
     },
     clientName: {

@@ -1,6 +1,6 @@
 const mongoose = require ('mongoose');
 const connectDB = require ('./Backend/config/db');
-const Catway =require ('./Backend/models/catway');
+const Catway =require ('./Backend/models/Catway');
 const Reservation = require ('./Backend/models/reservations');
 
 const catwayData =require ('./sources/catways.json');
